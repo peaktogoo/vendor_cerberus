@@ -39,7 +39,7 @@ function cerberus_device_combos()
 
 function cerberus_rename_function()
 {
-    eval "original_gzosp_$(declare -f ${1})"
+    eval "original_cerberus_$(declare -f ${1})"
 }
 
 function _cerberus_build_hmm() #hidden
